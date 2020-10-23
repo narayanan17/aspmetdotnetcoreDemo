@@ -1,0 +1,4 @@
+config:
+  gcp:project: flawless-outlet-284222
+  gcp:region: us-west1-a
+  pulumi:template: gcp-typescript
