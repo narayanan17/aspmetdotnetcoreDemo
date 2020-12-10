@@ -4,11 +4,10 @@
 }
 
 <div class="jumbotron">
-    <h1>@AppSettings.Value.SiteTitle</h1>
-    <h2>Welcome to CAPE Demo</h2>
+    <h1>@AppSettings.Value.SiteTitle</h1>    
     <img src="~/Images/home-showcase.png" />
 </div>
-
+<h2>Welcome to CAPE Demo</h2>
 <ul class="row list-unstyled" id="album-list">
     @foreach (var album in Model)
     {
