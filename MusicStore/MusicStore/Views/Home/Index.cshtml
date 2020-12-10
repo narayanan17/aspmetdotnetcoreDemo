@@ -1,10 +1,11 @@
 ﻿@inject IOptions<AppSettings> AppSettings
 @{
-    ViewBag.Title = "Home Page, Welcome to CAPE Demo";
+    ViewBag.Title = "Home Page";
 }
 
 <div class="jumbotron">
     <h1>@AppSettings.Value.SiteTitle</h1>
+    <h2>Welcome to CAPE Demo</h2>
     <img src="~/Images/home-showcase.png" />
 </div>
 
